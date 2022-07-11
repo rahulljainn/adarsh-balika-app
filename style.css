@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Oswald:wght@300;600&display=swap');
+
+:root{
+      --primary-color:#6C63FF;
+}
+hr{
+    margin: 2rem;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+}
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.container-center{
+    max-width: 700px;
+    margin: auto;
+}
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.5rem;
+}
+.link-secondary{
+    color:var(gray);
+    border: 1px solid var(--primary-color);
+    border-radius: 00.5rem;
+}
+.no-bullet-allowed{
+    list-style: none;
+}
+.inline-or{
+    display: inline;
+    padding: 0rem 1rem;
+}    
+.second-step{
+    text-align:center;
+     font-size:2rem ;
+    font-weight: bold;
+}
+
+.navigator-container{
+    background-color:var(--primary-color);
+    border-bottom-left-radius: 1rem; 
+}
+.navigator-container .link{
+    color: white;
+    
+}
+.navigator-container .nav-pills{
+    text-align: right;
+}
+
+.code-hero{
+    padding: 1rem;
+}
+.image-code{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+.code-hero-img{
+    color: gray;
+}
+.list-wiser{
+    text-align: center;
+    margin: auto;
+    max-width: 300px;
+    padding: 00.5rem;
+
+}
+.background{
+    
+    background-color: lightgrey;
+}
+.footer-rage{
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    border-top-right-radius: 1rem;
+}
+.footer-rage .link{
+    color: white;
+    display: inline;
+}
