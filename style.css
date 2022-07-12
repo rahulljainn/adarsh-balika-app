@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Oswald:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;1,200&family=Oswald:wght@300;600&family=Overpass:ital,wght@0,400;1,100&family=Rubik+Moonrocks&display=swap');
 
 :root{
       --primary-color:#6C63FF;
@@ -7,8 +7,10 @@ hr{
     margin: 2rem;
 }
 body{
-    font-family: 'Montserrat', sans-serif;
-font-family: 'Oswald', sans-serif;
+   
+    font-family: 'Overpass', sans-serif;
+       
+    
 }
 .container{
     padding-left: 1rem;
@@ -27,11 +29,12 @@ font-family: 'Oswald', sans-serif;
     background-color: var(--primary-color);
     color: white;
     border-radius: 0.5rem;
+    
 }
 .link-secondary{
     color:var(gray);
     border: 1px solid var(--primary-color);
-    border-radius: 00.5rem;
+    border-radius: 0.5rem;
 }
 .no-bullet-allowed{
     list-style: none;
@@ -41,14 +44,16 @@ font-family: 'Oswald', sans-serif;
     padding: 0rem 1rem;
 }    
 .second-step{
-    text-align:center;
+    color: white;
      font-size:2rem ;
     font-weight: bold;
+    font-style: italic;
 }
 
 .navigator-container{
     background-color:var(--primary-color);
-    border-bottom-left-radius: 1rem; 
+    border-bottom-left-radius: 1rem;
+    padding: 1rem; 
 }
 .navigator-container .link{
     color: white;
@@ -56,10 +61,12 @@ font-family: 'Oswald', sans-serif;
 }
 .navigator-container .nav-pills{
     text-align: right;
+    font-size: large;
 }
 
 .code-hero{
     padding: 1rem;
+    text-align: center;
 }
 .image-code{
     max-width: 300px;
@@ -72,13 +79,15 @@ font-family: 'Oswald', sans-serif;
 .list-wiser{
     text-align: center;
     margin: auto;
-    max-width: 300px;
-    padding: 00.5rem;
+    max-width: 600px;
+    padding: 1rem 1rem;
+    
 
 }
 .background{
     
     background-color: lightgrey;
+    
 }
 .footer-rage{
     background-color: var(--primary-color);
@@ -89,4 +98,8 @@ font-family: 'Oswald', sans-serif;
 .footer-rage .link{
     color: white;
     display: inline;
+}
+.link-active{
+    font-weight: 500px;
+    color: black;
 }
