@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;1,200&family=Oswald:wght@300;600&family=Overpass:ital,wght@0,400;1,100&family=Rubik+Moonrocks&display=swap');
 
 :root{
-      --primary-color:#6C63FF;
+      --primary-color:#e17c11;
 }
 hr{
     margin: 2rem;
@@ -23,7 +23,7 @@ body{
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
-    margin: auto;
+    
 }
 
 .link-primary{
@@ -62,8 +62,8 @@ body{
     
 }
 .navigator-container .nav-pills{
-    text-align: right;
-    font-size: large;
+    text-align: center;
+    font-size: larger;
 }
 
 .code-hero{
