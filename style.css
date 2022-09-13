@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;1,200&family=Oswald:wght@300;600&family=Overpass:ital,wght@0,400;1,100&family=Rubik+Moonrocks&display=swap');
 
 :root{
-      --primary-color:#e17c11;
+      --primary-color:#145681;
 }
 hr{
     margin: 2rem;
 }
 body{
    
-    font-family: 'Overpass', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
        
     
 }
@@ -23,7 +23,11 @@ body{
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
-    
+    font-size: 26px;  
+}
+
+.linksize{
+    font-size: 20px;
 }
 
 .link-primary{
@@ -46,32 +50,50 @@ body{
     padding: 0rem 1rem;
 }    
 .second-step{
-    color: white;
-     font-size:2rem ;
+    color:black;
+    font-size:20px ;
+    border-color:black;
+    border-style: solid;
+    width: 100px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
     font-weight: bold;
-    font-style: italic;
+    margin: 20px;
 }
+.imgsize{
+    width:35px;
 
+}
+.second-step:hover{
+    background-color:gray;
+    
+}
 .navigator-container{
-    background-color:var(--primary-color);
-    border-bottom-left-radius: 1rem;
-    padding: 1rem; 
+    padding: 5px; 
+    display: flex;
+    flex-direction: row;
+    
 }
 .navigator-container .link{
-    color: white;
+    color:black;
     
 }
 .navigator-container .nav-pills{
-    text-align: center;
+    text-align:left;
     font-size: larger;
+    margin-left: 40rem;
+    margin-top: 30px;
+    
 }
 
 .code-hero{
-    padding: 1rem;
-    text-align: center;
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
 }
 .image-code{
-    max-width: 300px;
+    max-width: 500px;
     display: block;
     margin: auto;
 }
@@ -87,7 +109,9 @@ body{
 
 }
 .background{
-    
+    width: 50%;
+    margin: auto;
+    text-align: center;
     background-color: lightgrey;
     
 }
@@ -110,4 +134,21 @@ body{
     margin: auto;
     display: block;
 
+}
+.name{
+    color:#145681;
+    font-size: 2rem;
+}
+.para{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.head-hero{
+    color:grey;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.para-1{
+    font-size: 2rem;
+    color: gray;
 }
