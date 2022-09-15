@@ -34,6 +34,7 @@ body{
     background-color: var(--primary-color);
     color: white;
     border-radius: 0.5rem;
+    
    
     
 }
@@ -65,6 +66,46 @@ body{
     width:35px;
 
 }
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    list-style-type:none;
+}
+
+.myprojecthead{
+    padding-left: 20px;
+}
+
+.projectcontainer1{
+    padding: 20px;
+    width: 50%;
+    height:200px;
+    margin: 10px;
+    border-style: solid;
+    border-color: black;
+}
+.projectcontainer2{
+    padding: 20px;
+    width: 50%;
+    height:200px;
+    margin: 10px;
+    border-style: solid;
+    border-color: black;
+}
+.non-bullet{
+    list-style-type:none;
+}
+.technology{
+    padding: 15px;
+    border-style: solid;
+    border-color: black;
+    width: 8rem;
+    height: 20px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+
 .second-step:hover{
     background-color:gray;
     
@@ -102,10 +143,9 @@ body{
 }
 .list-wiser{
     text-align: center;
-    margin: auto;
-    max-width: 600px;
-    padding: 1rem 1rem;
-    
+    margin: auto;  
+    max-width: 1000px;
+    font-size: 32px;
 
 }
 .background{
@@ -117,9 +157,9 @@ body{
 }
 .footer-rage{
     background-color: var(--primary-color);
-    padding: 2rem 0rem;
+    padding: 15px;
     text-align: center;
-    border-top-right-radius: 1rem;
+    margin-top: 20px;
 }
 .footer-rage .link{
     color: white;
