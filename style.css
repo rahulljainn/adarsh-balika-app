@@ -23,7 +23,7 @@ body{
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
-    font-size: 26px;  
+    font-size: 20px;  
 }
 
 .linksize{
@@ -49,6 +49,10 @@ body{
 .inline-or{
     display: inline;
 }    
+.nav-pills{
+    padding-right: 3rem;
+    
+}
 .second-step{
     color:black;
     font-size:20px ;
