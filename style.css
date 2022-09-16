@@ -48,19 +48,20 @@ body{
 }
 .inline-or{
     display: inline;
-    padding: 0rem 1rem;
 }    
 .second-step{
     color:black;
     font-size:20px ;
     border-color:black;
     border-style: solid;
-    width: 100px;
+    width: 10%;
     height: 20px;
     padding: 10px;
     text-align: center;
     font-weight: bold;
     margin: 20px;
+    margin-left: 40px;
+    
 }
 .imgsize{
     width:35px;
