@@ -1,3 +1,4 @@
 # my portfolio
 adarshbalika app
-here I have uploaded my all projects and blogs
+here I have uploaded my all projects and blogs.
+It is made using CSS and HTML.
